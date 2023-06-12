@@ -14,6 +14,7 @@ const Projects = () => {
                             key={i + 1}
                             title={project.title}
                             img={project.img}
+                            index={i}
                         />
                     })}
                 </ul>
